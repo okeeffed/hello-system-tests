@@ -9,10 +9,14 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^10.4.9",
     "@testing-library/user-event": "^12.8.3",
+    "cypress": "^7.2.0",
     "framer-motion": "^4.1.11",
+    "msw": "^0.28.2",
+    "puppeteer": "^9.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^3.11.0",
+    "react-query": "^3.15.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^0.2.4"
   },
@@ -20,6 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "jest": "jest",
+    "cypress": "$(npm bin)/cypress",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,5 +42,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "jest-playwright-preset": "^1.5.2",
+    "jest-puppeteer": "^5.0.3",
+    "playwright": "^1.10.0",
+    "playwright-testing-library": "^2.7.2",
+    "pptr-testing-library": "^0.6.4"
   }
 }
